@@ -10,6 +10,8 @@ def read_env():
     Pulled from Honcho code with minor updates, reads local default
     environment variables from a .env file located in the project root
     directory.
+    The file is responsible for managing error in the app so that it
+    can give proper instruction if the app fails to run and how to overcome those problems.
 
     """
     try:

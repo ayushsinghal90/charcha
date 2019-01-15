@@ -6,7 +6,10 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from charcha.discussions.models import User
 from .models import Subscription
-
+"""
+this code manages the addition, deletion and modification
+of a conversation or discussion.
+"""
 @login_required
 @require_http_methods(['POST'])
 def subscribe(request):
